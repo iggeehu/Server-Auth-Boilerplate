@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "start": "nodemon --exec babel-node app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "Iggee <hu.igor@yahoo.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3",
+    "jwt-simple": "^0.5.6",
+    "mongoose": "^6.3.0",
+    "morgan": "^1.10.0",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.16"
+  }
+}
